@@ -1,0 +1,95 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    min-height: 100hv;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg.png);
+    background-size: contain;
+}
+
+div{
+    display: flex;
+    flex: 1;
+}
+
+main{
+    flex: 1;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 150px;
+}
+
+aside{
+    background-color: rgba(0, 0, 0, 0.07);
+    width: 200px;
+}
+
+footer{
+    height: 100px;
+    background-color:#d3d3d3;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    background-color:#d3d3d3;
+    margin: 0;
+}
+
+img{
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    text-align: center;
+    padding: 0 auto;
+}
+
+h2,
+h3{
+    text-align: center;
+    padding: 0 auto;
+}
+
+#num{
+    text-align: center;
+    padding: 0 auto;
+    font-family: serif;
+    font-size: 120%;
+    font-weight: 900;
+    background-color: rgba(255, 255, 224, 0.6);
+}
+
+.button{
+    width: 50%;
+    height: 50%;
+}
+
+p{
+    font-size: 80%;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    body,
+    nav,
+    aside{
+        width: 100%;
+    }
+    div{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 130%;
+    }
+    p{
+        font-size: 30%;
+        margin: 0;
+    }
+}
