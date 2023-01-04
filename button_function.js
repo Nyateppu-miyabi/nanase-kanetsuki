@@ -12,7 +12,7 @@ const fortune ={
 };
 
 document.getElementById('button').addEventListener('click', () => {
-  const i = Math.floor(Math.random() * 100);
+  const i = Math.floor(Math.random() * 101);
   let result = '？？'
   let rate = 0;
   for (const prop in fortune) {
