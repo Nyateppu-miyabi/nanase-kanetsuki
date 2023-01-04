@@ -1,5 +1,5 @@
 const fortune ={
-    '大吉':12,
+    '大吉':11,
     '中吉':17,
     '小吉':20,
     '吉':15,
@@ -12,7 +12,7 @@ const fortune ={
 };
 
 document.getElementById('button').addEventListener('click', () => {
-  const i = Math.floor(Math.random() * 101);
+  const i = Math.floor(Math.random() * 100);
   let result = '？？'
   let rate = 0;
   for (const prop in fortune) {
